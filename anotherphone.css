@@ -1,0 +1,45 @@
+body .container{
+width: 95vw;
+}
+.container .f_songs {
+    width: 50vw;
+}
+
+.f_songs .songitem {
+    width: 84vw;
+    margin-left: 4vw;
+}
+
+.songitem .duration {
+    margin-left: 13vw;
+    font-size: 13px;
+}
+.songitem .text{
+    font-size: 13px;
+    width: 24vw;
+}
+
+.playing .title{
+    font-size:0.7em;
+}
+#gifi{
+    width: 15vw;
+    height: 3vh;
+}
+
+.icons .fa-2x {
+    font-size: 1.3em;
+}
+
+body .bottom{
+    margin-top: 1.3vh;
+    padding-bottom: 7vh;
+}
+
+.bottom .playing{
+    margin-left: 0.5vw;
+    margin-top:5.5vh;
+}
+.bottom .range {
+    margin-top: -6vh;
+}

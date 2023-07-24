@@ -1,0 +1,38 @@
+nav ul li img {
+    width: 25px;
+}
+body nav ul li {
+    padding: 0px 7px;
+    font-size: 11px;
+}
+
+.songlist h1{
+    font-size: 20px;
+}
+ul .sp_name {
+    font-size: 13px;
+    margin-left: 7px;
+}
+
+.container .f_songs{
+    width: 32vw;
+}
+
+.songitem .duration {
+    font-size: 13px;
+    margin-left: 3vw;
+}
+.songitem .text{
+    font-size: 13px;
+    width: 11vw;
+}
+
+.title{
+    font-size: 15px;
+}
+#gifi{
+    width: 50px;
+}
+body .bottom{
+    margin-top: 3vh;
+}
