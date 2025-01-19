@@ -1,191 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify Clone</title>
-    <link rel="stylesheet" media="screen and (min-width: 722px) and (max-width: 1080px)" href="phone.css">
-    <link rel="stylesheet" media="screen and (max-width:721px)" href="anotherphone.css">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 722px) and (max-width: 1080px)"
+      href="phone.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:721px)"
+      href="anotherphone.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <nav>
-        <ul>
-            <li class="spoti"><img src="logo.png" alt="Spotify"><span class="sp_name">My Spotify</span> </li>
-        </ul>
+      <ul>
+        <li class="spoti">
+          <img src="logo.png" alt="Spotify" /><span class="sp_name"
+            >My Spotify</span
+          >
+        </li>
+      </ul>
     </nav>
 
     <div class="container">
-        <div class="songlist">
-            <h1>Your Favourite Songs</h1>
+      <div class="songlist">
+        <h1>Your Favourite Songs</h1>
+      </div>
+      <div class="f_songs">
+        <div class="songitem">
+          <img src="covers/1.jpg" alt="1" />
+          <span class="text">Faded-Alen Waker</span>
+          <span class="duration">
+            0:30 <i class="fa fa-lg fa-play-circle master" id="1"></i>
+          </span>
         </div>
-        <div class="f_songs">
-            <div class="songitem">
-                <img src="covers/1.jpg" alt="1">
-                <span class="text">Faded-Alen Waker</span>
-                <span class="duration">
-                   0:30 <i class="far fa-1x fa-play-circle master" id="1"></i>
-                </span>
-            </div>
-            <div class="songitem">
-                <img src="covers/2.jpg" alt="1">
-                <span class="text">Guzrya-BGM</span>
-                <span class="duration">
-                    0:30 <i class="far fa-1x fa-play-circle master" id="2"></i>
-                 </span>
-            </div>
-            <div class="songitem">
-                <img src="covers/3.jpg" alt="1">
-                <span class="text">English Instrument 1</span>
-                <span class="duration">
-                    0:27 <i class="far fa-1x fa-play-circle master" id="3"></i>
-                 </span>
-            </div>
-            <div class="songitem">
-                <img src="covers/4.jpg" alt="1">
-                <span class="text">English Instrument 2</span>
-                <span class="duration">
-                    0:33 <i class="far fa-1x fa-play-circle master"id="4"></i>
-                 </span>
-            </div>
-            <div class="songitem">
-                <img src="covers/5.jpg" alt="1">
-                <span class="text">Whoopty</span>
-                <span class="duration">
-                    0:30 <i class="far fa-1x fa-play-circle master"id="5"></i>
-                 </span>
-            </div>
+        <div class="songitem">
+          <img src="covers/2.jpg" alt="1" />
+          <span class="text">Guzrya-BGM</span>
+          <span class="duration">
+            0:30 <i class="fa fa-lg fa-play-circle master" id="2"></i>
+          </span>
         </div>
-        <div class="f_songs">
-            <div class="songitem">
-                <img src="covers/6.jpg" alt="1">
-                <span class="text">Depth Song</span>
-                <span class="duration">
-                    3:50 <i class="far fa-1x fa-play-circle master" id="6"></i>
-                 </span>
-                <span></span>
-            </div>
-            <div class="songitem">
-                <img src="covers/7.jpg" alt="1">
-                <span class="text">Wake Up</span>
-                <span class="duration">
-                    0:35 <i class="far fa-1x fa-play-circle master" id="7"></i>
-                 </span>
-            </div>
-            <div class="songitem">
-                <img src="covers/4.jpg" alt="1">
-                <span class="text">Piano Song</span>
-                <span class="duration">
-                    4:33 <i class="far fa-1x fa-play-circle master" id="8"></i>
-                 </span>
-            </div>
-            <div class="songitem">
-                <img src="covers/9.jpg" alt="1">
-                <span class="text">Beat Up</span>
-                <span class="duration">
-                    4:27 <i class="far fa-1x fa-play-circle master" id="9"></i>
-                 </span>
-            </div>
-            <div class="songitem">
-                <img src="covers/10.jpg" alt="1">
-                <span class="text">Cheap Thrills</span>
-                <span class="duration">
-                    0:30 <i class="far fa-1x fa-play-circle master" id="10"></i>
-                 </span>
-            </div>
+        <div class="songitem">
+          <img src="covers/3.jpg" alt="1" />
+          <span class="text">English Instrument 1</span>
+          <span class="duration">
+            0:27 <i class="fa fa-lg fa-play-circle master" id="3"></i>
+          </span>
         </div>
-        <div class="f_songs">
-            <div class="songitem">
-                <img src="covers/1.jpg" alt="1">
-                <span class="text">Music# 11</span>
-                <span class="duration">
-                   0:30 <i class="far fa-1x fa-play-circle master" id="11"></i>
-                </span>
-            </div>
-            <div class="songitem">
-                <img src="covers/2.jpg" alt="1">
-                <span class="text">Music# 12</span>
-                <span class="duration">
-                    0:30 <i class="far fa-1x fa-play-circle master" id="12"></i>
-                 </span>
-            </div>
-            <div class="songitem">
-                <img src="covers/3.jpg" alt="1">
-                <span class="text">Music# 13</span>
-                <span class="duration">
-                    0:24 <i class="far fa-1x fa-play-circle master" id="13"></i>
-                 </span>
-            </div>
-            <div class="songitem">
-                <img src="covers/4.jpg" alt="1">
-                <span class="text">Music# 14</span>
-                <span class="duration">
-                    0:30 <i class="far fa-1x fa-play-circle master"id="14"></i>
-                 </span>
-            </div>
-            <div class="songitem">
-                <img src="covers/5.jpg" alt="1">
-                <span class="text">Music# 15</span>
-                <span class="duration">
-                    0:27 <i class="far fa-1x fa-play-circle master"id="15"></i>
-                 </span>
-            </div>
+        <div class="songitem">
+          <img src="covers/4.jpg" alt="1" />
+          <span class="text">English Instrument 2</span>
+          <span class="duration">
+            0:33 <i class="fa fa-lg fa-play-circle master" id="4"></i>
+          </span>
         </div>
-        <div class="f_songs">
-            <div class="songitem">
-                <img src="covers/6.jpg" alt="1">
-                <span class="text">Music# 16</span>
-                <span class="duration">
-                    0:15 <i class="far fa-1x fa-play-circle master" id="16"></i>
-                 </span>
-                <span></span>
-            </div>
-            <div class="songitem">
-                <img src="covers/7.jpg" alt="1">
-                <span class="text">Music# 17</span>
-                <span class="duration">
-                    0:44 <i class="far fa-1x fa-play-circle master" id="17"></i>
-                 </span>
-            </div>
-            <div class="songitem">
-                <img src="covers/4.jpg" alt="1">
-                <span class="text">Music# 18</span>
-                <span class="duration">
-                    0:30 <i class="far fa-1x fa-play-circle master" id="18"></i>
-                 </span>
-            </div>
-            <div class="songitem">
-                <img src="covers/9.jpg" alt="1">
-                <span class="text">Music# 19</span>
-                <span class="duration">
-                    0:30 <i class="far fa-1x fa-play-circle master" id="19"></i>
-                 </span>
-            </div>
-            <div class="songitem">
-                <img src="covers/10.jpg" alt="1">
-                <span class="text">Music# 20</span>
-                <span class="duration">
-                    0:29 <i class="far fa-1x fa-play-circle master" id="20"></i>
-                 </span>
-            </div>
+        <div class="songitem">
+          <img src="covers/5.jpg" alt="1" />
+          <span class="text">Whoopty</span>
+          <span class="duration">
+            0:30 <i class="fa fa-lg fa-play-circle master" id="5"></i>
+          </span>
         </div>
-
+      </div>
+      <div class="f_songs">
+        <div class="songitem">
+          <img src="covers/6.jpg" alt="1" />
+          <span class="text">Depth Song</span>
+          <span class="duration">
+            3:50 <i class="fa fa-lg fa-play-circle master" id="6"></i>
+          </span>
+          <span></span>
+        </div>
+        <div class="songitem">
+          <img src="covers/7.jpg" alt="1" />
+          <span class="text">Wake Up</span>
+          <span class="duration">
+            0:35 <i class="fa fa-lg fa-play-circle master" id="7"></i>
+          </span>
+        </div>
+        <div class="songitem">
+          <img src="covers/4.jpg" alt="1" />
+          <span class="text">Piano Song</span>
+          <span class="duration">
+            4:33 <i class="fa fa-lg fa-play-circle master" id="8"></i>
+          </span>
+        </div>
+        <div class="songitem">
+          <img src="covers/9.jpg" alt="1" />
+          <span class="text">Beat Up</span>
+          <span class="duration">
+            4:27 <i class="fa fa-lg fa-play-circle master" id="9"></i>
+          </span>
+        </div>
+        <div class="songitem">
+          <img src="covers/10.jpg" alt="1" />
+          <span class="text">Cheap Thrills</span>
+          <span class="duration">
+            0:30 <i class="fa fa-lg fa-play-circle master" id="10"></i>
+          </span>
+        </div>
+      </div>
+      <div class="f_songs">
+        <div class="songitem">
+          <img src="covers/1.jpg" alt="1" />
+          <span class="text">Music# 11</span>
+          <span class="duration">
+            0:30 <i class="fa fa-lg fa-play-circle master" id="11"></i>
+          </span>
+        </div>
+        <div class="songitem">
+          <img src="covers/2.jpg" alt="1" />
+          <span class="text">Music# 12</span>
+          <span class="duration">
+            0:30 <i class="fa fa-lg fa-play-circle master" id="12"></i>
+          </span>
+        </div>
+        <div class="songitem">
+          <img src="covers/3.jpg" alt="1" />
+          <span class="text">Music# 13</span>
+          <span class="duration">
+            0:24 <i class="fa fa-lg fa-play-circle master" id="13"></i>
+          </span>
+        </div>
+        <div class="songitem">
+          <img src="covers/4.jpg" alt="1" />
+          <span class="text">Music# 14</span>
+          <span class="duration">
+            0:30 <i class="fa fa-lg fa-play-circle master" id="14"></i>
+          </span>
+        </div>
+        <div class="songitem">
+          <img src="covers/5.jpg" alt="1" />
+          <span class="text">Music# 15</span>
+          <span class="duration">
+            0:27 <i class="fa fa-lg fa-play-circle master" id="15"></i>
+          </span>
+        </div>
+      </div>
+      <div class="f_songs">
+        <div class="songitem">
+          <img src="covers/6.jpg" alt="1" />
+          <span class="text">Music# 16</span>
+          <span class="duration">
+            0:15 <i class="fa fa-lg fa-play-circle master" id="16"></i>
+          </span>
+          <span></span>
+        </div>
+        <div class="songitem">
+          <img src="covers/7.jpg" alt="1" />
+          <span class="text">Music# 17</span>
+          <span class="duration">
+            0:44 <i class="fa fa-lg fa-play-circle master" id="17"></i>
+          </span>
+        </div>
+        <div class="songitem">
+          <img src="covers/4.jpg" alt="1" />
+          <span class="text">Music# 18</span>
+          <span class="duration">
+            0:30 <i class="fa fa-lg fa-play-circle master" id="18"></i>
+          </span>
+        </div>
+        <div class="songitem">
+          <img src="covers/9.jpg" alt="1" />
+          <span class="text">Music# 19</span>
+          <span class="duration">
+            0:30 <i class="fa fa-lg fa-play-circle master" id="19"></i>
+          </span>
+        </div>
+        <div class="songitem">
+          <img src="covers/10.jpg" alt="1" />
+          <span class="text">Music# 20</span>
+          <span class="duration">
+            0:29 <i class="fa fa-lg fa-play-circle master" id="20"></i>
+          </span>
+        </div>
+      </div>
     </div>
 
     <div class="bottom">
-        <input type="range" class="range" min="0"  max="100" value="0" id="seekbar">
-        <div class="icons">
-            <i class="fas fa-2x fa-step-backward" id="previous"></i>
-            <i class="far fa-2x fa-play-circle" id="masterPlay"></i>
-            <i class="fas fa-2x fa-step-forward" id="next"></i>
-        </div>
-        <div class="playing">
-            <img src="playing.gif" alt="" width="70px" id="gifi"><span class="title" id="songname">Faded-Alen Waker</span>
-        </div>
+      <input
+        type="range"
+        class="range"
+        min="0"
+        max="100"
+        value="0"
+        id="seekbar"
+      />
+      <div class="icons">
+        <i class="fa fa-2x fa-step-backward" id="previous"></i>
+        <i class="fa fa-2x fa-play-circle" id="masterPlay"></i>
+        <i class="fa fa-2x fa-step-forward" id="next"></i>
+      </div>
+      <div class="playing">
+        <img src="playing.gif" alt="" width="70px" id="gifi" /><span
+          class="title"
+          id="songname"
+          >Faded-Alen Waker</span
+        >
+      </div>
     </div>
     <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>
